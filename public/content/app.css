@@ -1,1 +1,9 @@
-/* cusotm css goes here */
+/* Class to float and pad the image on the about me page */
+.floated {
+    float: left;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border: 10px solid transparent;
+}

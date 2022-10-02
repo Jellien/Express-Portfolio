@@ -12,12 +12,12 @@ router.get('/home', function(req, res, next) {
 
 /* GET about us page */
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About'});
+  res.render('about', { title: 'About'});
 });
 
-/* GET Products page */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products'});
+/* GET Projects page */
+router.get('/projects', function(req, res, next) {
+  res.render('projects', { title: 'Projects'});
 });
 
 /* GET services page */
